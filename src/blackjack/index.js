@@ -89,7 +89,7 @@ const turnoComputadora = ( puntosMinimos ) => {
 // Eventos
 btnPedir.addEventListener('click', () => {
 
-    const carta = pedirCarta(deck);
+    const carta = pedirCarta(deck); 
     
     puntosJugador = puntosJugador + valorCarta( carta );
     puntosHTML[0].innerText = puntosJugador;
